@@ -1,0 +1,16 @@
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/bin/Debug/QuantConnect.Configuration.xml
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/bin/Debug/QuantConnect.Configuration.deps.json
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/bin/Debug/QuantConnect.Configuration.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/bin/Debug/QuantConnect.Configuration.pdb
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/bin/Debug/QuantConnect.Logging.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/bin/Debug/QuantConnect.Logging.pdb
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/bin/Debug/QuantConnect.Logging.xml
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/QuantConnect.Configuration.csproj.AssemblyReference.cache
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/QuantConnect.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/QuantConnect.Configuration.csproj.CoreCompileInputs.cache
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/QuantConnect.Configuration.sourcelink.json
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/QuantCon.0B6A77F3.Up2Date
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/QuantConnect.Configuration.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/refint/QuantConnect.Configuration.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/QuantConnect.Configuration.pdb
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Configuration/obj/Debug/ref/QuantConnect.Configuration.dll

@@ -1,0 +1,16 @@
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/bin/Debug/QuantConnect.Compression.xml
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/bin/Debug/QuantConnect.Compression.deps.json
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/bin/Debug/QuantConnect.Compression.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/bin/Debug/QuantConnect.Compression.pdb
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/bin/Debug/QuantConnect.Logging.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/bin/Debug/QuantConnect.Logging.pdb
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/bin/Debug/QuantConnect.Logging.xml
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/QuantConnect.Compression.csproj.AssemblyReference.cache
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/QuantConnect.Compression.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/QuantConnect.Compression.csproj.CoreCompileInputs.cache
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/QuantConnect.Compression.sourcelink.json
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/QuantCon.794D27AD.Up2Date
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/QuantConnect.Compression.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/refint/QuantConnect.Compression.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/QuantConnect.Compression.pdb
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Compression/obj/Debug/ref/QuantConnect.Compression.dll

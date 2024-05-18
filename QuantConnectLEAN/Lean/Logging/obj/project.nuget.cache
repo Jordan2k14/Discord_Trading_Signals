@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EUw+ImfTrww=",
+  "success": true,
+  "projectFilePath": "/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/QuantConnect.Logging.csproj",
+  "expectedPackageFiles": [
+    "/Users/jordanukawoko/.nuget/packages/system.componentmodel.composition/6.0.0/system.componentmodel.composition.6.0.0.nupkg.sha512",
+    "/Users/jordanukawoko/.nuget/packages/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "/Users/jordanukawoko/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/bin/Debug/QuantConnect.Logging.xml
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/bin/Debug/QuantConnect.Logging.deps.json
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/bin/Debug/QuantConnect.Logging.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/bin/Debug/QuantConnect.Logging.pdb
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/obj/Debug/QuantConnect.Logging.csproj.AssemblyReference.cache
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/obj/Debug/QuantConnect.Logging.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/obj/Debug/QuantConnect.Logging.csproj.CoreCompileInputs.cache
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/obj/Debug/QuantConnect.Logging.sourcelink.json
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/obj/Debug/QuantConnect.Logging.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/obj/Debug/refint/QuantConnect.Logging.dll
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/obj/Debug/QuantConnect.Logging.pdb
+/Users/jordanukawoko/Library/Mobile Documents/com~apple~CloudDocs/Discord_Trading_Bot/QuantConnectLEAN/Lean/Logging/obj/Debug/ref/QuantConnect.Logging.dll
