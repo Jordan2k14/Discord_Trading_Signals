@@ -1,7 +1,5 @@
 import json
 import logging
-import asyncio
-import websockets
 import discord
 from discord.ext import commands, tasks
 from datetime import datetime, time
@@ -17,9 +15,8 @@ class BotConfig:
 		self.token = config['token']
 		self.client_id = config['client_id']
 		self.client_secret = config['client_secret']
-		self.redirect_uri = config['redirect_uri']
+		self.redirect_uri = config.get('redirect_uri', '')
 		self.channels = config['channels']
-		self.websocket_url = config['websocket_url']
 		self.subscriptions = config.get('subscriptions', {})
 		self.log_file = config.get('log_file', 'bot.log')
 
@@ -32,7 +29,6 @@ class BotConfig:
 				"redirect_uri": self.redirect_uri,
 				"channels": self.channels,
 				"subscriptions": self.subscriptions,
-				"websocket_url": self.websocket_url,
 				"log_file": self.log_file
 			}, f, indent=4)
 
@@ -55,13 +51,13 @@ class ChannelManager:
 		send_times = channel_config['send_times']
 		rate_limit_interval = channel_config['rate_limit_interval']
 
-		# Here we are Checking the rate limit
+		# Check rate limit
 		now = datetime.now()
 		time_since_last_message = (now - self.last_message_time[channel_id]).total_seconds()
 		if self.message_counters[channel_id] >= rate_limit and time_since_last_message < rate_limit_interval:
 			return False
 
-		# Here we are Checking the time constraints
+		# Check time constraints
 		current_time = now.time()
 		for send_time in send_times:
 			send_hour, send_minute = map(int, send_time.split(':'))
@@ -91,34 +87,15 @@ class ChannelManager:
 	def list_subscriptions(self, channel_id):
 		return self.subscriptions.get(channel_id, [])
 
-# Here we are connecting to the web socket 
-class WebSocketClient:
-	def __init__(self, url, message_handler):
-		self.url = url
-		self.message_handler = message_handler
-		self.connected = False
-
-	async def connect(self):
-		try:
-			async with websockets.connect(self.url) as websocket:
-				self.connected = True
-				async for message in websocket:
-					await self.message_handler(message)
-		except Exception as e:
-			logging.error(f"WebSocket connection error: {e}")
-			self.connected = False
-
 class MessageBot(commands.Cog):
-	def __init__(self, bot, channel_manager, websocket_client):
+	def __init__(self, bot, channel_manager):
 		self.bot = bot
 		self.channel_manager = channel_manager
-		self.websocket_client = websocket_client
 
 	@commands.Cog.listener()
 	async def on_ready(self):
 		logging.info(f'Logged in as {self.bot.user.name}')
 		self.reset_message_counters.start()
-		await self.websocket_client.connect()
 
 	@commands.command()
 	@commands.cooldown(1, 60, commands.BucketType.user)
@@ -163,7 +140,6 @@ class MessageBot(commands.Cog):
 		rate_limit_interval = config.get('rate_limit_interval', 'N/A')
 		await ctx.send(f"Rate Limit: {rate_limit}, Interval: {rate_limit_interval} seconds")
 
-    # These are the bot commands 
 	@commands.command()
 	async def help(self, ctx, lang: str = "en"):
 		help_messages = {
@@ -257,30 +233,6 @@ class MessageBot(commands.Cog):
 			await ctx.send("An error occurred while processing the command.")
 		logging.error(f"Error in command {ctx.command}: {error}")
 
-	@tasks.loop(minutes=5)
-	async def monitor_bot(self):
-		if not self.websocket_client.connected:
-			logging.warning("WebSocket disconnected. Attempting to reconnect...")
-			await self.websocket_client.connect()
-		if not self.bot.is_ready():
-			logging.warning("Bot not ready.")
-		else:
-			logging.info("Bot is operational.")
-
-	async def handle_signal(self, message):
-		try:
-			signal_data = json.loads(message)
-			signal = signal_data['signal']
-			channels = self.channel_manager.get_subscriptions(signal)
-			for channel_id in channels:
-				if self.channel_manager.can_send_message(channel_id):
-					channel = self.bot.get_channel(int(channel_id))
-					if channel:
-						await channel.send(f"Signal received: {signal}")
-						self.channel_manager.increment_message_counter(channel_id)
-		except Exception as e:
-			logging.error(f"Error handling message: {e}")
-
 	@tasks.loop(hours=24)
 	async def reset_message_counters(self):
 		self.channel_manager.reset_message_counters()
@@ -293,12 +245,11 @@ class DiscordBot:
 		self.bot = commands.Bot(command_prefix='!')
 		self.bot.config = self.config
 		self.channel_manager = ChannelManager(self.config.channels, self.config.subscriptions)
-		self.message_bot = MessageBot(self.bot, self.channel_manager, WebSocketClient(self.config.websocket_url, self.bot.loop.create_task(self.message_bot.handle_signal)))
+		self.message_bot = MessageBot(self.bot, self.channel_manager)
 		self.bot.add_cog(self.message_bot)
 
 	def run(self):
 		self.bot.run(self.config.token)
-		self.message_bot.monitor_bot.start()
 
 if __name__ == '__main__':
 	bot = DiscordBot('config.json')
