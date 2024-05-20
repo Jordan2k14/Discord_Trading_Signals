@@ -1,23 +1,18 @@
 {
-	"token": "YOUR_BOT_TOKEN",
-	"client_id": "YOUR_CLIENT_ID",
-	"client_secret": "YOUR_CLIENT_SECRET",
-	"redirect_uri": "YOUR_REDIRECT_URI",
+	"token": "MTI0MTQyNzk0Njg5NjQ5MDU4Nw.GhWb2F.2ERdLqZQNy70lfADWlErpvyElhzsOPJJQUzS_s",
+	"client_id": "1241427946896490587",
+	"client_secret": "1S-lqPBFHGcbELvGD4-yDJYNhBPQdN8B",
+	"redirect_uri": "",
 	"channels": {
-		"123456789012345678": {
+		"1242150157181780038": {
 			"signals": ["SIGNAL_1", "SIGNAL_2"],
 			"rate_limit": 5,
 			"send_times": ["09:00", "17:00"],
 			"rate_limit_interval": 60
-		},
-		"234567890123456789": {
-			"signals": ["SIGNAL_3"],
-			"rate_limit": 3,
-			"send_times": ["10:00", "16:00"],
-			"rate_limit_interval": 60
 		}
 	},
 	"subscriptions": {},
-	"websocket_url": "ws://your_signal_generator_url",
 	"log_file": "bot.log"
 }
+
+
