@@ -1,0 +1,126 @@
+2024-05-23 20:50:59,044 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-23 20:50:59,045 INFO:Bot is starting...
+2024-05-23 20:50:59,046 INFO:Cogs added to bot
+2024-05-23 20:50:59,046 INFO:logging in using static token
+2024-05-23 20:51:01,113 INFO:Shard ID None has connected to Gateway (Session ID: cb9da724df00e8950b841094a8fe6e5f).
+2024-05-23 20:51:03,266 INFO:Logged in as Trading Signals
+2024-05-23 20:51:03,266 INFO:Bot is ready and reset_message_counters task started
+2024-05-23 20:51:03,266 INFO:Message counters reset.
+2024-05-23 20:53:19,389 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-23 20:53:19,391 INFO:Bot is starting...
+2024-05-23 20:53:19,391 INFO:Cogs added to bot
+2024-05-23 20:53:19,391 INFO:logging in using static token
+2024-05-23 20:53:20,429 INFO:Shard ID None has connected to Gateway (Session ID: ca1c4cd09bda1106a514c74a0289dd53).
+2024-05-23 20:53:22,445 INFO:Logged in as Trading Signals
+2024-05-23 20:53:22,446 INFO:Bot is ready and reset_message_counters task started
+2024-05-23 20:53:22,446 INFO:Message counters reset.
+2024-05-23 20:58:00,011 INFO:Received list_subscriptions command
+2024-05-23 20:58:00,477 INFO:List subscriptions command executed for channel: 1242150157181780038
+2024-05-23 21:10:18,105 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-23 21:10:18,106 INFO:Bot is starting...
+2024-05-23 21:10:18,107 INFO:Cogs added to bot
+2024-05-23 21:10:18,107 INFO:logging in using static token
+2024-05-23 21:10:19,144 INFO:Shard ID None has connected to Gateway (Session ID: ae5d0c66312b6ab821a7f17fc07e029e).
+2024-05-23 21:10:21,146 INFO:Logged in as Trading Signals
+2024-05-23 21:10:21,146 INFO:Bot is ready and reset_message_counters task started
+2024-05-23 21:10:21,147 INFO:Message counters reset.
+2024-05-23 21:13:17,806 INFO:Received list_subscriptions command
+2024-05-23 21:13:18,027 INFO:List subscriptions command executed for channel: 1242150157181780038
+2024-05-23 21:21:31,399 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-23 21:21:31,400 INFO:Bot is starting...
+2024-05-23 21:21:31,401 INFO:Cogs added to bot
+2024-05-23 21:21:31,401 INFO:logging in using static token
+2024-05-23 21:21:32,377 INFO:Shard ID None has connected to Gateway (Session ID: 3137cdbcd6bb28bacf7006d8d27ca81b).
+2024-05-23 21:21:34,380 INFO:Logged in as Trading Signals
+2024-05-23 21:21:34,380 INFO:Bot is ready and reset_message_counters task started
+2024-05-23 21:21:34,381 INFO:Message counters reset.
+2024-05-23 21:22:27,989 INFO:Received list_subscriptions command
+2024-05-23 21:22:28,355 INFO:List subscriptions command executed for channel: 1242150157181780038
+2024-05-23 21:41:35,843 INFO:Help command executed
+2024-05-23 21:42:10,932 INFO:Received list_subscriptions command
+2024-05-23 21:42:11,261 INFO:List subscriptions command executed for channel: 1242150157181780038
+2024-05-23 21:42:18,384 INFO:Received subscribe command for signal: test_signal
+2024-05-23 21:42:18,635 INFO:Subscribed to signal: test_signal in channel: 1242150157181780038
+2024-05-23 21:42:25,618 INFO:Received get_history command with limit: 10
+2024-05-23 21:42:26,176 INFO:History command executed with limit: 10
+2024-05-23 21:42:33,871 INFO:Text channel 'example_channel' created.
+2024-05-23 21:47:10,966 INFO:Shard ID None has successfully RESUMED session 3137cdbcd6bb28bacf7006d8d27ca81b.
+2024-05-23 21:47:45,213 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-23 21:47:45,215 INFO:Bot is starting...
+2024-05-23 21:47:45,215 INFO:Cogs added to bot
+2024-05-23 21:47:45,216 INFO:logging in using static token
+2024-05-23 21:47:46,253 INFO:Shard ID None has connected to Gateway (Session ID: 43f9e9b72623a4d8bd5d4e103f9fcaad).
+2024-05-23 21:47:48,255 INFO:Logged in as Trading Signals
+2024-05-23 21:47:48,255 INFO:Bot is ready and reset_message_counters task started
+2024-05-23 21:47:48,255 INFO:Message counters reset.
+2024-05-23 21:52:28,002 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-23 21:52:28,018 INFO:Received get_history command with limit: 10
+2024-05-23 21:54:08,920 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-23 21:54:08,921 INFO:Bot is starting...
+2024-05-23 21:54:08,922 INFO:Cogs added to bot
+2024-05-23 21:54:08,922 INFO:logging in using static token
+2024-05-23 21:54:09,861 INFO:Shard ID None has connected to Gateway (Session ID: 458832878b12cc629c31a17dbbddf76c).
+2024-05-23 21:54:11,863 INFO:Logged in as Trading Signals
+2024-05-23 21:54:11,863 INFO:Bot is ready and reset_message_counters task started
+2024-05-23 21:54:11,864 INFO:Message counters reset.
+2024-05-23 21:54:34,545 INFO:Received list_subscriptions command
+2024-05-23 21:54:34,564 INFO:Received list_subscriptions command
+2024-05-23 21:54:34,584 INFO:Received list_subscriptions command
+2024-05-23 21:54:34,808 INFO:List subscriptions command executed for channel: 1242150157181780038
+2024-05-23 21:54:34,876 INFO:List subscriptions command executed for channel: 1242150157181780038
+2024-05-23 21:54:35,328 INFO:List subscriptions command executed for channel: 1242150157181780038
+2024-05-23 21:54:50,535 INFO:Text channel 'example_channel2' created.
+2024-05-23 21:54:50,571 INFO:Text channel 'example_channel2' created.
+2024-05-23 21:54:50,612 INFO:Text channel 'example_channel2' created.
+2024-05-23 21:58:02,012 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-23 21:58:02,029 INFO:Received get_history command with limit: 10
+2024-05-23 21:58:02,037 INFO:Received list_subscriptions command
+2024-05-23 21:58:02,038 INFO:List subscriptions command executed for channel: 12345
+2024-05-23 21:58:02,050 INFO:Received subscribe command for signal: test_signal
+2024-05-23 21:58:02,052 INFO:Subscribed to signal: test_signal in channel: 12345
+2024-05-23 21:58:02,058 INFO:Received unsubscribe command for signal: test_signal
+2024-05-23 21:58:02,059 INFO:Unsubscribed from signal: test_signal in channel: 12345
+2024-05-23 23:00:06,292 INFO:Shard ID None has successfully RESUMED session 43f9e9b72623a4d8bd5d4e103f9fcaad.
+2024-05-23 23:06:45,538 ERROR:Attempting a reconnect in 0.43s
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/discord/client.py", line 659, in connect
+    await self.ws.poll_event()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/discord/gateway.py", line 646, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-05-23 23:06:46,295 INFO:Shard ID None has successfully RESUMED session 3137cdbcd6bb28bacf7006d8d27ca81b.
+2024-05-23 23:06:47,821 ERROR:Attempting a reconnect in 1.60s
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/discord/client.py", line 659, in connect
+    await self.ws.poll_event()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/discord/gateway.py", line 646, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-05-23 23:06:49,750 INFO:Shard ID None has successfully RESUMED session 43f9e9b72623a4d8bd5d4e103f9fcaad.
+2024-05-23 23:56:46,708 ERROR:Attempting a reconnect in 0.79s
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/discord/client.py", line 659, in connect
+    await self.ws.poll_event()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/discord/gateway.py", line 646, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-05-23 23:56:47,842 INFO:Shard ID None has successfully RESUMED session 3137cdbcd6bb28bacf7006d8d27ca81b.
+2024-05-23 23:56:50,475 ERROR:Attempting a reconnect in 0.77s
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/discord/client.py", line 659, in connect
+    await self.ws.poll_event()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/discord/gateway.py", line 646, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2024-05-23 23:56:51,580 INFO:Shard ID None has successfully RESUMED session 43f9e9b72623a4d8bd5d4e103f9fcaad.
+2024-05-24 00:06:53,879 WARNING:PyNaCl is not installed, voice will NOT be supported
+2024-05-24 00:06:53,880 INFO:Bot is starting...
+2024-05-24 00:06:53,881 INFO:Cogs added to bot
+2024-05-24 00:06:53,881 INFO:logging in using static token
+2024-05-24 00:06:54,827 INFO:Shard ID None has connected to Gateway (Session ID: d38da18acb8a3ef824d412ebc4f1db6b).
+2024-05-24 00:06:56,829 INFO:Logged in as Trading Signals
+2024-05-24 00:06:56,829 INFO:Bot is ready and reset_message_counters task started
+2024-05-24 00:06:56,830 INFO:Message counters reset.
+2024-05-24 00:07:34,121 INFO:Text channel 'trading-signals-2' created.
+2024-05-24 00:08:02,594 INFO:Received get_history command with limit: 10
+2024-05-24 00:08:03,120 INFO:History command executed with limit: 10

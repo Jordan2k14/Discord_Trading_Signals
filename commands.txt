@@ -1,0 +1,13 @@
+!help_custom
+!get_history 10
+!subscribe test_signal
+!unsubscribe test_signal
+!list_subscriptions
+!rate_limits
+!add_channel 12345
+!remove_channel 12345
+!create_text_channel example_channel
+!set_rate_limit 12345 5 60
+!set_send_times 12345 08:00 12:00 16:00
+!reload_config
+!save_config
